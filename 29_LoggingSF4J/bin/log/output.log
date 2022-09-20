@@ -1,0 +1,5 @@
+16:31:51.411 [main] WARN  com.sf4j.Main - hello world
+16:31:51.414 [main] ERROR com.sf4j.Main - hello world
+14:50:39.656 [main] INFO  com.sf4j.Main - hello world
+14:50:39.658 [main] WARN  com.sf4j.Main - hello world
+14:50:39.658 [main] ERROR com.sf4j.Main - hello world
