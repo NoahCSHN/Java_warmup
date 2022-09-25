@@ -23,9 +23,9 @@ class Students {
     Students(List<Student> list) {
         this.list = list;
         cache = new HashMap<>();
-        for(Student s: list){
-            cache.put(s.name, s.score);
-        }
+        // for(Student s: list){
+        //     cache.put(s.name, s.score);
+        // }
     }
 
     /**
@@ -36,6 +36,8 @@ class Students {
         Integer score = this.cache.get(name);
         if (score == null) {
             // TODO:
+            score = findInList(name);
+            this.cache.put(name, score);
         }
         return score == null ? -1 : score.intValue();
     }
